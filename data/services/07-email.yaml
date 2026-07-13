@@ -1,0 +1,71 @@
+key: email
+name: 邮件发送 / Newsletter
+icon: 📧
+order: 7
+desc: 事务邮件(验证码/通知)和 Newsletter(内容营销)两条线的免费方案。
+services:
+  - name: Resend
+    url: https://resend.com
+    desc: 开发者体验最好的邮件 API,React Email 写模板,Indie 圈事实标准。
+    free_quota: 3000 封/月(100 封/天)、1 个自定义域名
+    credit_card: "no"
+    china: ok
+    indie: 5
+    tags: [事务邮件, API, React Email]
+  - name: Brevo
+    url: https://www.brevo.com
+    desc: 原 Sendinblue,事务邮件 + 营销邮件 + 短信一体,免费层按天计量。
+    free_quota: 300 封/天,含营销自动化基础功能
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [营销邮件, 自动化]
+  - name: Amazon SES
+    url: https://aws.amazon.com/ses/
+    desc: 大规模发信最便宜的选择,$0.10/千封,量大后从免费层平滑过渡。
+    free_quota: 每月 3000 条消息免费(12 个月),之后 $0.10/千封
+    credit_card: "yes"
+    china: ok
+    indie: 4
+    tags: [AWS, 低成本, 大规模]
+  - name: EmailJS
+    url: https://www.emailjs.com
+    desc: 纯前端直接发邮件,不用写后端,静态站联系表单神器。
+    free_quota: 200 封/月
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [前端, 表单]
+  - name: Buttondown
+    url: https://buttondown.com
+    desc: 极简 Newsletter 工具,Markdown 写作,API 完善,独立写作者最爱。
+    free_quota: 100 订阅者以内免费
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [Newsletter, Markdown]
+  - name: beehiiv
+    url: https://www.beehiiv.com
+    desc: 增长功能最强的 Newsletter 平台,自带推荐网络和变现工具。
+    free_quota: 2500 订阅者以内免费,无限发送
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [Newsletter, 增长, 变现]
+  - name: MailerLite
+    url: https://www.mailerlite.com
+    desc: 性价比营销邮件平台,自动化流程免费层就能用。
+    free_quota: 1000 订阅者、1.2 万封/月
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [营销邮件, 自动化]
+  - name: Substack
+    url: https://substack.com
+    desc: 内容创作者平台,免费用全套,靠付费订阅抽成 10% 盈利。
+    free_quota: 完全免费使用,付费订阅收入抽成 10%
+    credit_card: "no"
+    china: blocked
+    china_note: 国内无法直接访问,面向海外读者则无影响
+    indie: 4
+    tags: [Newsletter, 创作者]
