@@ -1,0 +1,81 @@
+key: cdn-dns-storage
+name: CDN / DNS / 域名 / 存储
+icon: 📦
+order: 11
+desc: 域名解析、静态资源分发、对象存储,一个项目的“地基”部分。
+services:
+  - name: Cloudflare
+    url: https://www.cloudflare.com
+    desc: 免费 CDN + DNS + DDoS 防护 + SSL,互联网基建白嫖之王,域名注册还是成本价。
+    free_quota: 免费计划:CDN 无限流量、DNS、SSL、防护、R2/Workers/Pages 免费层
+    credit_card: "no"
+    china: partial
+    china_note: 免费版无国内节点,国内访问绕行海外偏慢,但稳定可用
+    indie: 5
+    tags: [CDN, DNS, 安全]
+  - name: Cloudflare R2
+    url: https://www.cloudflare.com/developer-platform/r2/
+    desc: S3 兼容对象存储,杀手锏是出站流量完全免费,存图片/文件成本趋近于零。
+    free_quota: 10GB 存储/月、100 万次写 + 1000 万次读/月、出站流量 $0
+    credit_card: "no"
+    china: partial
+    indie: 5
+    tags: [对象存储, S3 兼容, 零出站费]
+  - name: Backblaze B2
+    url: https://www.backblaze.com/cloud-storage
+    desc: 最便宜的对象存储之一,配合 Cloudflare 出站免费,备份首选。
+    free_quota: 10GB 免费存储,每天 1GB 免费下载
+    credit_card: "no"
+    china: partial
+    indie: 3
+    tags: [对象存储, 备份]
+  - name: 七牛云
+    url: https://www.qiniu.com
+    desc: 国内老牌对象存储 + CDN,实名后有免费额度,做国内图床/静态资源方便。
+    free_quota: 10GB 标准存储、每月 10GB HTTP CDN 流量(需实名)
+    credit_card: "no"
+    china: ok
+    china_note: 国内节点速度快;绑定自定义域名需已备案
+    indie: 3
+    tags: [国内, 对象存储, CDN]
+  - name: DNSPod
+    url: https://www.dnspod.cn
+    desc: 腾讯旗下 DNS 解析,国内解析速度与稳定性好,免费套餐够个人用。
+    free_quota: 免费套餐:域名解析、10 条负载均衡
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [DNS, 国内]
+  - name: jsDelivr
+    url: https://www.jsdelivr.com
+    desc: 免费开源 CDN,直接引用 npm/GitHub 资源,国内有备案节点速度好。
+    free_quota: 完全免费、无限流量
+    credit_card: "no"
+    china: ok
+    china_note: 少数在国内有合规节点的免费 CDN,偶有波动
+    indie: 4
+    tags: [CDN, npm, 开源]
+  - name: is-a.dev
+    url: https://www.is-a.dev
+    desc: 免费领 xxx.is-a.dev 子域名,提 PR 即可,开发者个人主页利器。
+    free_quota: 免费子域名,PR 审核制
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [免费域名, 子域名]
+  - name: js.org
+    url: https://js.org
+    desc: 为 JS 开源项目提供免费 xxx.js.org 子域名,指向 GitHub Pages。
+    free_quota: 免费子域名(需为 JS 相关项目)
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [免费域名, JavaScript]
+  - name: EU.org
+    url: https://nic.eu.org
+    desc: 运营 30 年的免费域名,可托管到任意 DNS,审核慢但真免费永久。
+    free_quota: 免费 xxx.eu.org 域名,永久免费
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [免费域名]
