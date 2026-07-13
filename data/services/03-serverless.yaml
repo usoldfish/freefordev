@@ -1,0 +1,56 @@
+key: serverless
+name: Serverless / 边缘函数
+icon: ⚡
+order: 3
+desc: 无服务器函数,跑 API、定时任务、Webhook 的最低成本方式。
+services:
+  - name: Cloudflare Workers
+    url: https://workers.cloudflare.com
+    desc: 边缘函数事实标准,免费层量大管饱,搭配 KV/R2/D1 可组免费全栈。
+    free_quota: 10 万次请求/天、KV 读 10 万次/天、D1 数据库 5GB、Cron 触发器
+    credit_card: "no"
+    china: partial
+    china_note: workers.dev 域名国内不稳,绑自定义域名改善
+    indie: 5
+    tags: [边缘计算, KV, D1]
+  - name: AWS Lambda
+    url: https://aws.amazon.com/lambda/
+    desc: Serverless 鼻祖,永久免费额度充足,但 AWS 全家桶学习成本高。
+    free_quota: 永久免费:100 万次请求/月 + 40 万 GB-秒计算
+    credit_card: "yes"
+    china: ok
+    china_note: 全球区可访问;注册需外币卡,小心其他服务隐性扣费
+    indie: 3
+    tags: [AWS, FaaS]
+  - name: Vercel Functions
+    url: https://vercel.com/docs/functions
+    desc: 和 Vercel 前端一体的函数,写 API 路由零配置。
+    free_quota: Hobby:100GB-小时/月 函数执行、1 万分钟边缘函数
+    credit_card: "no"
+    china: partial
+    indie: 4
+    tags: [Next.js, API]
+  - name: Netlify Functions
+    url: https://www.netlify.com/platform/core/functions/
+    desc: Netlify 内置函数,静态站加一点动态逻辑够用。
+    free_quota: 12.5 万次调用/月、100 小时运行时间
+    credit_card: "no"
+    china: partial
+    indie: 3
+    tags: [FaaS, Jamstack]
+  - name: Val Town
+    url: https://www.val.town
+    desc: 在线写 TS 小函数即发布,自带 Cron 和 HTTP 端点,做小自动化极快。
+    free_quota: 免费计划:公开 Val 不限量、10 万次运行/天、Cron 定时
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [TypeScript, Cron, 自动化]
+  - name: Supabase Edge Functions
+    url: https://supabase.com/edge-functions
+    desc: Supabase 自带的 Deno 边缘函数,配合其数据库/认证一站式后端。
+    free_quota: 免费项目含 50 万次函数调用/月
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [Deno, BaaS]
