@@ -1,0 +1,65 @@
+key: analytics
+name: 数据分析 / 统计
+icon: 📊
+order: 8
+desc: 网站流量、用户行为分析。Google 系国内被墙,注意给国内站选替代品。
+services:
+  - name: Microsoft Clarity
+    url: https://clarity.microsoft.com
+    desc: 微软出品,完全免费的热图 + 会话录屏,看用户真实操作路径,无量级限制。
+    free_quota: 完全免费、无流量上限,含热图、录屏、AI 洞察
+    credit_card: "no"
+    china: ok
+    china_note: 国内可正常加载,微软系少数不受影响的服务
+    indie: 5
+    tags: [热图, 录屏, 完全免费]
+  - name: Umami Cloud
+    url: https://umami.is
+    desc: 开源隐私友好的 GA 替代品,界面清爽无 Cookie,云版有免费层,也可自托管。
+    free_quota: Cloud 免费:10 万事件/月、最多 3 个网站;自托管无限制
+    credit_card: "no"
+    china: ok
+    indie: 5
+    tags: [开源, 隐私, 可自托管]
+  - name: PostHog
+    url: https://posthog.com
+    desc: 产品分析全家桶:事件分析、录屏、A/B 测试、功能开关,免费层大得离谱。
+    free_quota: 100 万事件/月、5000 条录屏/月,超出按量计费
+    credit_card: "no"
+    china: ok
+    indie: 5
+    tags: [产品分析, A/B 测试, 录屏]
+  - name: Google Analytics 4
+    url: https://analytics.google.com
+    desc: 行业标准,免费但学习曲线陡;国内网页加载 GA 脚本会失败。
+    free_quota: 标准版免费,事件近乎无限
+    credit_card: "no"
+    china: blocked
+    china_note: 国内用户的访问不会被统计到,纯海外站可用
+    indie: 3
+    tags: [Google, 行业标准]
+  - name: Cloudflare Web Analytics
+    url: https://www.cloudflare.com/web-analytics/
+    desc: 无 Cookie 的轻量统计,套了 Cloudflare 的站点零配置开启。
+    free_quota: 完全免费
+    credit_card: "no"
+    china: partial
+    indie: 4
+    tags: [隐私, 轻量]
+  - name: GoatCounter
+    url: https://www.goatcounter.com
+    desc: 一人开发的极简开源统计,非商业免费,几 KB 脚本不拖慢页面。
+    free_quota: 非商业用途免费(10 万浏览/月),开源可自托管
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [开源, 极简]
+  - name: 百度统计
+    url: https://tongji.baidu.com
+    desc: 面向国内用户的站点统计标配,国内加载快、数据全。
+    free_quota: 基础版免费
+    credit_card: "no"
+    china: ok
+    china_note: 做中文站/国内流量必备,海外站不适用
+    indie: 3
+    tags: [国内, 中文站]
