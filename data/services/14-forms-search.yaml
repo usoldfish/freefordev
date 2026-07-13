@@ -1,0 +1,55 @@
+key: forms-search
+name: 表单 / 搜索
+icon: 📝
+order: 14
+desc: 收集用户输入和站内搜索,两件小事但自建很烦,白嫖最划算。
+services:
+  - name: Tally
+    url: https://tally.so
+    desc: 免费额度最大方的表单工具,Notion 风格编辑,免费版几乎无限制。
+    free_quota: 无限表单、无限提交(免费版含品牌标)
+    credit_card: "no"
+    china: ok
+    indie: 5
+    tags: [表单, 问卷]
+  - name: Formspree
+    url: https://formspree.io
+    desc: 静态网站表单后端,HTML form 指向它即可收提交,零后端。
+    free_quota: 50 次提交/月、1 个项目
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [表单后端, 静态站]
+  - name: 金数据
+    url: https://jinshuju.net
+    desc: 国内老牌表单工具,微信生态集成好,面向国内用户收集信息首选。
+    free_quota: 免费版:无限表单、每表单每月 100 条提交
+    credit_card: "no"
+    china: ok
+    china_note: 国内访问快,支持微信通知
+    indie: 3
+    tags: [国内, 表单, 微信]
+  - name: Algolia
+    url: https://www.algolia.com
+    desc: 搜索即服务标杆,毫秒级搜索体验,免费层够文档站和小产品。
+    free_quota: 1 万条记录、1 万次搜索/月
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [搜索, SaaS]
+  - name: Meilisearch
+    url: https://www.meilisearch.com
+    desc: 开源搜索引擎,中文分词支持好,自托管免费,云版有试用。
+    free_quota: 开源自托管完全免费;Cloud 14 天试用
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [开源, 搜索, 中文分词]
+  - name: Pagefind
+    url: https://pagefind.app
+    desc: 纯静态站内搜索库,构建时生成索引,零服务器零费用。
+    free_quota: 完全开源免费
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [静态搜索, 开源]
