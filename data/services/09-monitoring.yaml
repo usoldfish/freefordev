@@ -1,0 +1,63 @@
+key: monitoring
+name: 监控 / 日志 / 报错
+icon: 🩺
+order: 9
+desc: 网站宕机、程序报错第一时间知道,免费层对个人项目绰绰有余。
+services:
+  - name: UptimeRobot
+    url: https://uptimerobot.com
+    desc: 最流行的免费拨测,5 分钟间隔盯 50 个站点,配好通知就能睡安稳觉。
+    free_quota: 50 个监控、5 分钟间隔、邮件通知
+    credit_card: "no"
+    china: ok
+    indie: 5
+    tags: [拨测, 宕机告警]
+  - name: Sentry
+    url: https://sentry.io
+    desc: 报错追踪事实标准,前后端全覆盖,免费层个人项目够用。
+    free_quota: 5000 个错误/月、1 个用户、性能监控试用
+    credit_card: "no"
+    china: ok
+    indie: 5
+    tags: [报错追踪, APM]
+  - name: Better Stack
+    url: https://betterstack.com
+    desc: 拨测 + 状态页 + 日志一体,界面颜值高,免费层含 10 个监控。
+    free_quota: 10 个监控(3 分钟间隔)、状态页、1GB 日志/月
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [拨测, 状态页, 日志]
+  - name: Healthchecks.io
+    url: https://healthchecks.io
+    desc: 反向监控 Cron 任务:定时任务没按时“打卡”就告警,开源可自托管。
+    free_quota: 20 个检查、邮件/Webhook 通知
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [Cron 监控, 开源]
+  - name: Grafana Cloud
+    url: https://grafana.com/products/cloud/
+    desc: 指标 + 日志 + 链路追踪全套观测栈,免费层量给得很足。
+    free_quota: 1 万指标序列、50GB 日志、50GB 链路/月
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [可观测性, 指标, 日志]
+  - name: Axiom
+    url: https://axiom.co
+    desc: 新一代日志平台,免费层 0.5TB/月 摄入,查询快,API 友好。
+    free_quota: 0.5TB 日志摄入/月、30 天保留
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [日志, 分析]
+  - name: Uptime Kuma
+    url: https://github.com/louislam/uptime-kuma
+    desc: 开源自托管拨测面板,界面精美,一个 Docker 容器搞定,国内外通吃。
+    free_quota: 完全开源免费,自托管无限制
+    credit_card: "no"
+    china: ok
+    china_note: 自托管,部署在国内 VPS 可监控国内外站点
+    indie: 4
+    tags: [开源, 自托管, 拨测]
