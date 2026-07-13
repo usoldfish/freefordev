@@ -1,0 +1,57 @@
+key: devops
+name: 代码托管 / CI-CD
+icon: 🔧
+order: 10
+desc: 代码仓库和自动化流水线,免费层已能覆盖独立开发全流程。
+services:
+  - name: GitHub
+    url: https://github.com
+    desc: 全球开发者主场,免费私有仓库 + Actions + Pages + Copilot 免费层,Indie 基本盘。
+    free_quota: 无限公私仓库、Actions 2000 分钟/月、Packages 500MB、Copilot 免费层
+    credit_card: "no"
+    china: partial
+    china_note: 国内可访问但时快时慢,克隆大仓库建议用镜像或代理
+    indie: 5
+    tags: [代码托管, Actions, 生态]
+  - name: GitHub Actions
+    url: https://github.com/features/actions
+    desc: CI/CD 首选,公开仓库完全免费不限时长,本项目的每周自动巡检就靠它。
+    free_quota: 公开仓库免费无限分钟;私有仓库 2000 分钟/月
+    credit_card: "no"
+    china: partial
+    indie: 5
+    tags: [CI/CD, 自动化]
+  - name: GitLab
+    url: https://gitlab.com
+    desc: DevOps 一体化平台,自带 CI、Issue 看板、容器镜像库。
+    free_quota: 5 用户/组、400 计算分钟 CI/月、10GB 仓库
+    credit_card: "no"
+    china: partial
+    indie: 3
+    tags: [代码托管, CI/CD]
+  - name: Gitee(码云)
+    url: https://gitee.com
+    desc: 国内最大代码托管平台,访问快,适合做 GitHub 仓库的国内镜像。
+    free_quota: 免费公私仓库(单仓 500MB)、Gitee Pages 需实名
+    credit_card: "no"
+    china: ok
+    china_note: 国内访问极快;公开仓库有内容审核
+    indie: 3
+    tags: [国内, 代码托管]
+  - name: Codeberg
+    url: https://codeberg.org
+    desc: 非营利组织运营的 Gitea 托管,无广告无追踪,开源项目的清流备份地。
+    free_quota: 免费公私仓库、Codeberg Pages
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [开源, 非营利]
+  - name: Docker Hub
+    url: https://hub.docker.com
+    desc: 容器镜像中心,个人免费层够发布开源镜像。
+    free_quota: 1 个私有仓库、无限公开仓库(有拉取限速)
+    credit_card: "no"
+    china: blocked
+    china_note: 2024 年起国内直连基本不可用,需配置镜像加速器
+    indie: 3
+    tags: [Docker, 镜像]
