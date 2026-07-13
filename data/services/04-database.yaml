@@ -1,0 +1,79 @@
+key: database
+name: 数据库
+icon: 🗄️
+order: 4
+desc: 托管数据库免费层,MVP 阶段完全够用。留意“闲置暂停”策略。
+services:
+  - name: Supabase
+    url: https://supabase.com
+    desc: 开源 Firebase 替代品,Postgres + 认证 + 存储 + 实时订阅,Indie 后端首选。
+    free_quota: 2 个项目:500MB 数据库、1GB 存储、5 万月活认证用户;7 天不活跃会暂停项目
+    credit_card: "no"
+    china: ok
+    indie: 5
+    tags: [Postgres, BaaS, 认证]
+  - name: Neon
+    url: https://neon.tech
+    desc: Serverless Postgres,分支功能像 Git 一样管理数据库,免费层可开 100 个项目。
+    free_quota: 100 个项目、每项目 0.5GB 存储 + 100 CU-小时/月、自动缩容到零
+    credit_card: "no"
+    china: ok
+    indie: 5
+    tags: [Postgres, Serverless, 分支]
+  - name: Turso
+    url: https://turso.tech
+    desc: 边缘 SQLite(libSQL),读多写少的应用便宜到离谱,免费层超大方。
+    free_quota: 5GB 存储、5 亿行读/月、多数据库
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [SQLite, 边缘]
+  - name: MongoDB Atlas
+    url: https://www.mongodb.com/atlas
+    desc: 官方托管 MongoDB,免费 M0 集群稳定运行多年,文档型数据首选。
+    free_quota: M0 免费集群:512MB 存储,共享 CPU,不过期
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [MongoDB, NoSQL]
+  - name: Upstash
+    url: https://upstash.com
+    desc: Serverless Redis / Kafka / 向量库,按请求计费,做缓存、队列、限流必备。
+    free_quota: Redis 免费:256MB、50 万条命令/月;另有向量库与 QStash 免费层
+    credit_card: "no"
+    china: ok
+    indie: 5
+    tags: [Redis, 队列, 向量]
+  - name: TiDB Cloud Serverless
+    url: https://www.pingcap.com/tidb-cloud-serverless/
+    desc: PingCAP(中国团队)的分布式 MySQL 兼容数据库,免费额度大,中文支持好。
+    free_quota: 每组织 5 个集群:各 5GB 行存 + 每月 5000 万 RU 请求单元
+    credit_card: "no"
+    china: ok
+    china_note: 中国团队出品,文档与社区中文友好
+    indie: 4
+    tags: [MySQL 兼容, 分布式, 华人团队]
+  - name: Firebase Firestore
+    url: https://firebase.google.com/products/firestore
+    desc: Google 的文档数据库,实时同步好用,海外移动应用常客。
+    free_quota: 1GB 存储、5 万次读/2 万次写/天
+    credit_card: "no"
+    china: blocked
+    indie: 3
+    tags: [Google, 实时, NoSQL]
+  - name: Convex
+    url: https://www.convex.dev
+    desc: 新一代全栈响应式数据库,TypeScript 端到端类型安全,做实时应用体验极好。
+    free_quota: 免费计划:100 万次函数调用/月、0.5GB 存储
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [实时, TypeScript, 全栈]
+  - name: Aiven
+    url: https://aiven.io
+    desc: 多云托管开源数据库(PG/MySQL/Redis/Kafka),有免费小实例。
+    free_quota: 免费计划:PostgreSQL / MySQL / Redis 各 1 个小实例(1 CPU 1GB)
+    credit_card: "no"
+    china: partial
+    indie: 3
+    tags: [Postgres, MySQL, 多云]
