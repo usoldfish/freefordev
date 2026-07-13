@@ -1,0 +1,49 @@
+name: 每周巡检 + 简报生成
+
+on:
+  schedule:
+    # 每周一 09:00 北京时间(01:00 UTC)
+    - cron: "0 1 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+
+      - name: 链接巡检 + 上游对比
+        run: python scripts/check_changes.py
+
+      - name: 生成 X / Newsletter 简报草稿
+        run: python scripts/gen_digest.py
+
+      - name: 重新构建 README
+        run: python scripts/build.py
+
+      - name: 提交巡检结果与简报
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/ digests/ data/upstream_snapshot.txt README.md
+          git diff --cached --quiet || git commit -m "chore: 每周巡检与简报 $(date +%F)"
+          git push
+
+      - name: 开 Issue 提醒审核
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "📋 每周巡检 $(date +%F):请审核报告与简报草稿" \
+            --body-file reports/latest.md \
+            --label "weekly-check" || true
