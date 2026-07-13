@@ -1,0 +1,80 @@
+key: media-content
+name: 图片 / 媒体 / 内容管理
+icon: 🖼️
+order: 13
+desc: 图片处理、免费素材、无头 CMS,做内容型产品和媒体号的弹药库。
+services:
+  - name: Cloudinary
+    url: https://cloudinary.com
+    desc: 图片/视频云处理老大哥,URL 参数即改尺寸格式,免费层够个人项目。
+    free_quota: 25 Credits/月(约 25GB 存储或流量、2 万次转换)
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [图片处理, 视频, CDN]
+  - name: ImageKit
+    url: https://imagekit.io
+    desc: 实时图片优化 + CDN,可挂在已有存储(如 R2)前面,接入轻。
+    free_quota: 20GB 流量/月、20GB 存储
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [图片优化, CDN]
+  - name: TinyPNG
+    url: https://tinypng.com
+    desc: 最顺手的图片压缩工具,网页拖拽即压,API 每月有免费额度。
+    free_quota: 网页版免费(单张 ≤5MB);API 500 次压缩/月
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [图片压缩, API]
+  - name: Unsplash
+    url: https://unsplash.com
+    desc: 最大的免费商用图库,API 可直接集成到产品里。
+    free_quota: 图片免费商用;API 演示模式 50 次/小时
+    credit_card: "no"
+    china: partial
+    china_note: 网站可访问,图片 CDN 国内偏慢
+    indie: 4
+    tags: [图库, 免费商用, API]
+  - name: Pexels
+    url: https://www.pexels.com
+    desc: 免费商用图片 + 视频素材,做短视频内容的免费素材库。
+    free_quota: 图片视频免费商用;API 200 次/小时
+    credit_card: "no"
+    china: partial
+    indie: 4
+    tags: [图库, 视频素材]
+  - name: remove.bg
+    url: https://www.remove.bg
+    desc: 一键 AI 抠图,做封面图、商品图快速出活。
+    free_quota: 网页版免费(预览分辨率);API 有少量免费额度
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [抠图, AI]
+  - name: Notion
+    url: https://www.notion.com
+    desc: 个人版免费的全能笔记/数据库,配 API 可直接当轻量 CMS 用。
+    free_quota: 个人使用免费(块数量不限)、API 免费
+    credit_card: "no"
+    china: ok
+    china_note: 国内可直连,偶尔波动
+    indie: 5
+    tags: [笔记, CMS, API]
+  - name: Sanity
+    url: https://www.sanity.io
+    desc: 开发者友好的无头 CMS,结构化内容 + 实时协作,免费层量足。
+    free_quota: 免费计划:20 用户、2 个数据集、10GB 流量/月
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [无头 CMS, 结构化内容]
+  - name: Contentful
+    url: https://www.contentful.com
+    desc: 老牌无头 CMS,企业感强,免费层做个人博客/官网够用。
+    free_quota: 免费计划:1 万条内容、5 用户、2 个 Locale
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [无头 CMS]
