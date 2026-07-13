@@ -1,0 +1,64 @@
+key: baas-auth
+name: 后端即服务 / 用户认证
+icon: 🔐
+order: 5
+desc: 登录注册、用户管理这种“每个产品都要但没人想写”的部分,直接白嫖。
+services:
+  - name: Firebase
+    url: https://firebase.google.com
+    desc: Google 全家桶 BaaS:认证、数据库、托管、推送一条龙,海外移动端标配。
+    free_quota: Spark 计划免费:认证 5 万月活、Firestore、Hosting、Cloud Messaging
+    credit_card: "no"
+    china: blocked
+    indie: 3
+    tags: [Google, 全家桶]
+  - name: Appwrite Cloud
+    url: https://appwrite.io
+    desc: 开源 BaaS,认证/数据库/存储/函数齐全,也可自托管零成本。
+    free_quota: 免费计划:7.5 万月活用户、2GB 存储、75 万次函数执行
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [开源, BaaS, 可自托管]
+  - name: PocketBase
+    url: https://pocketbase.io
+    desc: 单文件开源后端(Go + SQLite),一个二进制搞定认证+数据库+文件,自托管神器。
+    free_quota: 完全开源免费,自托管无任何限制,一台便宜 VPS 即可跑
+    credit_card: "no"
+    china: ok
+    china_note: 自托管方案,部署在国内服务器则完全可控
+    indie: 5
+    tags: [开源, 自托管, SQLite]
+  - name: Clerk
+    url: https://clerk.com
+    desc: 体验最好的认证服务,预制 React 组件半小时接完登录,Indie 圈大热。
+    free_quota: 1 万月活用户免费,含社交登录、多因素认证
+    credit_card: "no"
+    china: ok
+    indie: 5
+    tags: [认证, React, SaaS]
+  - name: Auth0
+    url: https://auth0.com
+    desc: 老牌企业级认证,协议支持最全,免费层 2024 年扩容到 2.5 万月活。
+    free_quota: 2.5 万月活用户、社交登录、Passkey
+    credit_card: "no"
+    china: partial
+    indie: 3
+    tags: [认证, 企业级, OIDC]
+  - name: Logto
+    url: https://logto.io
+    desc: 华人团队的开源认证方案,中文文档完善,Cloud 版有免费层,也可自托管。
+    free_quota: Cloud 免费:5 万月活用户;开源版自托管无限制
+    credit_card: "no"
+    china: ok
+    china_note: 华人团队,中文文档与微信生态支持好
+    indie: 4
+    tags: [开源, 认证, 华人团队]
+  - name: Kinde
+    url: https://kinde.com
+    desc: 认证 + 功能开关 + 计费权限一体的新秀,给 SaaS 起步省不少胶水代码。
+    free_quota: 10500 月活用户免费
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [认证, SaaS, 功能开关]
