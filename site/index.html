@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FreeDev 中文版 — 开发者免费服务情报库</title>
+<meta name="description" content="精选面向独立开发者的免费服务:免费额度、是否需要信用卡、中国可用性、Indie Hacker 评分,每周自动更新。灵感来自 free-for.dev。">
+<style>
+:root{
+  --bg:#0d1117;--bg2:#161b22;--bg3:#1f2630;--fg:#e6edf3;--fg2:#9aa7b4;
+  --accent:#4da3ff;--accent2:#2ea043;--warn:#d29922;--bad:#f85149;
+  --border:#30363d;--chip:#21262d;--radius:10px;
+}
+[data-theme="light"]{
+  --bg:#f6f8fa;--bg2:#ffffff;--bg3:#eef1f4;--fg:#1f2328;--fg2:#59636e;
+  --accent:#0969da;--accent2:#1a7f37;--warn:#9a6700;--bad:#d1242f;
+  --border:#d1d9e0;--chip:#eef1f4;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.6}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+header{position:sticky;top:0;z-index:20;background:var(--bg2);border-bottom:1px solid var(--border);padding:10px 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+header h1{font-size:18px;white-space:nowrap}
+header .sub{color:var(--fg2);font-size:12px}
+header .spacer{flex:1}
+.btn{background:var(--chip);border:1px solid var(--border);color:var(--fg);border-radius:8px;padding:5px 12px;font-size:13px;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.layout{display:flex;max-width:1280px;margin:0 auto;gap:0}
+nav{width:230px;flex-shrink:0;position:sticky;top:58px;height:calc(100vh - 58px);overflow-y:auto;padding:16px 8px 40px 16px;border-right:1px solid var(--border)}
+nav .navitem{display:flex;justify-content:space-between;align-items:center;padding:6px 10px;border-radius:8px;cursor:pointer;font-size:14px;color:var(--fg2)}
+nav .navitem:hover{background:var(--bg3);color:var(--fg)}
+nav .navitem.active{background:var(--bg3);color:var(--accent);font-weight:600}
+nav .navitem .cnt{font-size:11px;background:var(--chip);border:1px solid var(--border);border-radius:10px;padding:0 7px}
+main{flex:1;padding:20px;min-width:0}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px;align-items:center}
+#q{flex:1;min-width:200px;background:var(--bg2);border:1px solid var(--border);color:var(--fg);border-radius:8px;padding:8px 12px;font-size:14px}
+#q:focus{outline:none;border-color:var(--accent)}
+.chip{background:var(--chip);border:1px solid var(--border);color:var(--fg2);border-radius:20px;padding:5px 14px;font-size:13px;cursor:pointer;user-select:none}
+.chip.on{border-color:var(--accent);color:var(--accent);background:color-mix(in srgb,var(--accent) 12%,transparent)}
+.stats{color:var(--fg2);font-size:13px;margin-bottom:14px}
+section{margin-bottom:34px}
+section h2{font-size:20px;margin-bottom:4px;scroll-margin-top:70px}
+section .catdesc{color:var(--fg2);font-size:13px;margin-bottom:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.card:hover{border-color:var(--accent)}
+.card .top{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.card .name{font-size:16px;font-weight:600}
+.card .stars{color:var(--warn);font-size:12px;letter-spacing:1px}
+.badges{display:flex;gap:6px;flex-wrap:wrap}
+.badge{font-size:11px;border-radius:6px;padding:1px 8px;border:1px solid var(--border);color:var(--fg2)}
+.badge.good{color:var(--accent2);border-color:var(--accent2)}
+.badge.warn{color:var(--warn);border-color:var(--warn)}
+.badge.bad{color:var(--bad);border-color:var(--bad)}
+.card .desc{font-size:13px;color:var(--fg2)}
+.quota{font-size:12.5px;background:var(--bg3);border-radius:8px;padding:7px 10px}
+.quota b{color:var(--accent2)}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:11px;color:var(--fg2);background:var(--chip);border-radius:5px;padding:0 6px}
+.cnnote{font-size:11.5px;color:var(--fg2)}
+footer{border-top:1px solid var(--border);margin-top:30px;padding:24px 20px;color:var(--fg2);font-size:12.5px;text-align:center}
+.empty{color:var(--fg2);padding:40px;text-align:center}
+#toTop{position:fixed;right:18px;bottom:18px;display:none}
+@media(max-width:800px){
+  nav{display:none}
+  .grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>🧰 FreeDev 中文版</h1>
+  <span class="sub">开发者免费服务情报库 · 为 Indie Hacker 而生</span>
+  <span class="spacer"></span>
+  <button class="btn" id="theme">🌗 主题</button>
+  <a class="btn" id="ghlink" href="#" target="_blank" rel="noopener">GitHub</a>
+</header>
+
+<div class="layout">
+  <nav id="nav"></nav>
+  <main>
+    <div class="controls">
+      <input id="q" type="search" placeholder="搜索服务名 / 描述 / 标签…">
+      <span class="chip" data-f="nocc">💳 无需信用卡</span>
+      <span class="chip" data-f="cn">🇨🇳 中国可直连</span>
+      <span class="chip" data-f="indie">🚀 Indie 精选</span>
+    </div>
+    <div class="stats" id="stats"></div>
+    <div id="content"><div class="empty">加载中…</div></div>
+  </main>
+</div>
+
+<footer>
+  数据人工核对 + 每周自动巡检,仍可能过时,请以官网为准。<br>
+  灵感与部分数据来源:<a href="https://free-for.dev" target="_blank" rel="noopener">free-for.dev</a>(ripienaar/free-for-dev)· 本站代码 MIT 开源
+</footer>
+<button class="btn" id="toTop">↑ 顶部</button>
+
+<script id="inline-data" type="application/json"></script>
+<script>
+const CN_LABEL={ok:["🇨🇳 可直连","good"],partial:["🇨🇳 部分可用","warn"],blocked:["🇨🇳 需科学上网","bad"]};
+const CC_LABEL={no:["💳 无需信用卡","good"],yes:["💳 需信用卡","warn"],partial:["💳 部分需卡","warn"]};
+let DATA=null,filters={nocc:false,cn:false,indie:false},query="",activeCat="all";
+
+const $=s=>document.querySelector(s);
+
+const boot=d=>{DATA=d;init();};
+const inline=document.getElementById("inline-data").textContent.trim();
+if(inline){boot(JSON.parse(inline));}
+else fetch("data.json").then(r=>r.json()).then(boot).catch(()=>{
+  $("#content").innerHTML='<div class="empty">数据加载失败:请通过本地服务器访问(python3 -m http.server),或使用内嵌数据版本的 dist/index.html。</div>';
+});
+
+function init(){
+  if(DATA.repo) $("#ghlink").href=DATA.repo;
+  document.title=`FreeDev 中文版 — ${DATA.total} 个开发者免费服务`;
+  renderNav();render();
+  $("#q").addEventListener("input",e=>{query=e.target.value.trim().toLowerCase();render();});
+  document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{
+    const f=c.dataset.f;filters[f]=!filters[f];c.classList.toggle("on",filters[f]);render();
+  }));
+  $("#theme").addEventListener("click",()=>{
+    const t=document.documentElement.dataset.theme==="light"?"":"light";
+    document.documentElement.dataset.theme=t;
+  });
+  window.addEventListener("scroll",()=>{$("#toTop").style.display=scrollY>600?"block":"none";});
+  $("#toTop").addEventListener("click",()=>scrollTo({top:0,behavior:"smooth"}));
+}
+
+function match(s){
+  if(filters.nocc&&s.credit_card!=="no")return false;
+  if(filters.cn&&s.china!=="ok")return false;
+  if(filters.indie&&s.indie<4)return false;
+  if(query){
+    const hay=(s.name+" "+s.desc+" "+(s.tags||[]).join(" ")+" "+(s.free_quota||"")).toLowerCase();
+    if(!hay.includes(query))return false;
+  }
+  return true;
+}
+
+function renderNav(){
+  const nav=$("#nav");
+  const items=[{key:"all",icon:"📚",name:"全部分类",cnt:DATA.total},
+    ...DATA.categories.map(c=>({key:c.key,icon:c.icon,name:c.name,cnt:c.services.length}))];
+  nav.innerHTML=items.map(i=>
+    `<div class="navitem${i.key===activeCat?" active":""}" data-k="${i.key}">
+      <span>${i.icon} ${i.name}</span><span class="cnt">${i.cnt}</span></div>`).join("");
+  nav.querySelectorAll(".navitem").forEach(el=>el.addEventListener("click",()=>{
+    activeCat=el.dataset.k;renderNav();render();scrollTo({top:0});
+  }));
+}
+
+function card(s){
+  const cn=CN_LABEL[s.china]||CN_LABEL.partial, cc=CC_LABEL[s.credit_card]||CC_LABEL.partial;
+  const stars="★".repeat(s.indie)+"☆".repeat(5-s.indie);
+  return `<div class="card">
+    <div class="top"><a class="name" href="${s.url}" target="_blank" rel="noopener">${s.name}</a>
+      <span class="stars" title="Indie Hacker 适配度 ${s.indie}/5">${stars}</span></div>
+    <div class="badges"><span class="badge ${cc[1]}">${cc[0]}</span><span class="badge ${cn[1]}">${cn[0]}</span></div>
+    <div class="desc">${s.desc}</div>
+    <div class="quota"><b>免费额度:</b>${s.free_quota}</div>
+    ${s.china_note?`<div class="cnnote">🌏 ${s.china_note}</div>`:""}
+    ${s.tags&&s.tags.length?`<div class="tags">${s.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div>`:""}
+  </div>`;
+}
+
+function render(){
+  const cats=DATA.categories
+    .filter(c=>activeCat==="all"||c.key===activeCat)
+    .map(c=>({...c,services:c.services.filter(match)}))
+    .filter(c=>c.services.length);
+  const shown=cats.reduce((n,c)=>n+c.services.length,0);
+  $("#stats").textContent=`共 ${DATA.total} 个服务 · 当前显示 ${shown} 个 · 数据更新:${DATA.updated}`;
+  $("#content").innerHTML=cats.length?cats.map(c=>
+    `<section id="${c.key}"><h2>${c.icon} ${c.name}</h2>
+     <div class="catdesc">${c.desc||""}</div>
+     <div class="grid">${c.services.map(card).join("")}</div></section>`).join("")
+    :'<div class="empty">没有匹配的服务,换个关键词或去掉筛选试试。</div>';
+}
+</script>
+</body>
+</html>
