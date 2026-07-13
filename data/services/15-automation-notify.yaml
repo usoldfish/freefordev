@@ -1,0 +1,83 @@
+key: automation-notify
+name: 自动化 / 消息通知
+icon: 🔔
+order: 15
+desc: 工作流自动化和“服务器有事叫我”的推送方案,运营效率倍增器。
+services:
+  - name: n8n
+    url: https://n8n.io
+    desc: 开源工作流自动化,节点生态强,自托管免费无限跑,AI 工作流也能编排。
+    free_quota: 自托管开源免费无限制;Cloud 版付费
+    credit_card: "no"
+    china: ok
+    china_note: 自托管部署在国内外均可,社区中文教程多
+    indie: 5
+    tags: [自动化, 开源, 自托管]
+  - name: Zapier
+    url: https://zapier.com
+    desc: 自动化连接器鼻祖,应用集成最多,免费层够轻量使用。
+    free_quota: 100 任务/月、单步 Zap
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [自动化, 集成]
+  - name: Make
+    url: https://www.make.com
+    desc: 可视化自动化,比 Zapier 便宜、逻辑能力强,免费层 1000 次操作。
+    free_quota: 1000 次操作/月、2 个活跃场景
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [自动化, 可视化]
+  - name: Pipedream
+    url: https://pipedream.com
+    desc: 面向开发者的自动化,节点里直接写代码,免费层对开发者相当够用。
+    free_quota: 免费计划:每天约 100 次工作流执行
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [自动化, 代码, API]
+  - name: ntfy.sh
+    url: https://ntfy.sh
+    desc: 极简开源推送:curl 一下手机就响,服务器告警零成本方案。
+    free_quota: 公共服务器免费使用,开源可自托管
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [推送, 开源, CLI]
+  - name: Bark
+    url: https://github.com/Finb/Bark
+    desc: 国人开发的 iOS 推送工具,一条 URL 推到 iPhone,国内直连秒达。
+    free_quota: 完全免费开源,可自托管推送服务端
+    credit_card: "no"
+    china: ok
+    china_note: 国人作品,国内网络环境下最可靠的 iOS 推送
+    indie: 4
+    tags: [iOS, 推送, 国人作品]
+  - name: Server酱
+    url: https://sct.ftqq.com
+    desc: 老牌“服务器→微信”推送,脚本跑完微信收通知,国内开发者的老朋友。
+    free_quota: 免费版每天 5 条推送
+    credit_card: "no"
+    china: ok
+    china_note: 推送到微信服务号,国内场景无出其右
+    indie: 3
+    tags: [微信, 推送, 国内]
+  - name: OneSignal
+    url: https://onesignal.com
+    desc: 主流 Web/App 推送服务,免费层对起步产品足够。
+    free_quota: Web 推送不限订阅者、移动推送 1 万订阅者
+    credit_card: "no"
+    china: partial
+    china_note: 依赖 FCM 的安卓推送在国内不可达,Web/iOS 可用
+    indie: 3
+    tags: [推送, Web Push]
+  - name: Telegram Bot API
+    url: https://core.telegram.org/bots
+    desc: 完全免费的 Bot 平台,做通知、社群工具、小产品分发都好用。
+    free_quota: 完全免费、无限消息
+    credit_card: "no"
+    china: blocked
+    china_note: 国内无法直连,面向海外用户/科学上网人群
+    indie: 4
+    tags: [Bot, 免费, 社群]
