@@ -1,0 +1,77 @@
+key: static-hosting
+name: 静态网站托管
+icon: 🌐
+order: 1
+desc: 托管落地页、文档站、纯前端应用的免费方案,Indie 出海第一站。
+services:
+  - name: Cloudflare Pages
+    url: https://pages.cloudflare.com
+    desc: Cloudflare 的静态站/全栈托管,配合 Workers 可跑动态逻辑,免费层几乎无限量。
+    free_quota: 无限站点、无限带宽、每月 500 次构建,支持自定义域名与免费 SSL
+    credit_card: "no"
+    china: partial
+    china_note: pages.dev 默认域名在国内不稳,绑自定义域名后基本可用但速度一般
+    indie: 5
+    tags: [静态托管, Serverless, 免费带宽]
+  - name: Vercel
+    url: https://vercel.com
+    desc: Next.js 官方平台,前端部署体验天花板,Hobby 免费计划对个人项目足够。
+    free_quota: Hobby 计划:100GB 带宽/月、Serverless 函数、预览部署、自定义域名
+    credit_card: "no"
+    china: partial
+    china_note: vercel.app 域名被墙,必须绑自定义域名;商业项目禁用 Hobby 计划
+    indie: 5
+    tags: [Next.js, 前端, Serverless]
+  - name: Netlify
+    url: https://www.netlify.com
+    desc: 老牌 Jamstack 托管,表单、身份验证、边缘函数一应俱全。
+    free_quota: 100GB 带宽/月、300 分钟构建/月、边缘函数 100 万次调用
+    credit_card: "no"
+    china: partial
+    china_note: 国内访问慢,建议套 CDN 或换 Cloudflare Pages
+    indie: 4
+    tags: [Jamstack, 表单, 边缘函数]
+  - name: GitHub Pages
+    url: https://pages.github.com
+    desc: 白嫖界元老,仓库即网站,配合 Actions 可自动构建任何静态框架。
+    free_quota: 免费托管公开仓库网站,1GB 空间、100GB 带宽/月(软限制)
+    credit_card: "no"
+    china: partial
+    china_note: 国内时通时断,严肃项目建议加自定义域名 + Cloudflare
+    indie: 5
+    tags: [GitHub, 文档站, 博客]
+  - name: Render(静态站)
+    url: https://render.com
+    desc: Render 的静态站点托管永久免费,全球 CDN 分发,自动从 Git 部署。
+    free_quota: 静态站点免费不限数量,100GB 出站带宽/月
+    credit_card: "no"
+    china: partial
+    china_note: onrender.com 可访问但速度一般
+    indie: 4
+    tags: [静态托管, CDN]
+  - name: Zeabur
+    url: https://zeabur.com
+    desc: 华人团队做的部署平台,中文界面、支持支付宝/微信付款,对国内开发者极友好。
+    free_quota: 免费计划可部署静态站点与体验级服务(Serverless 计划按量,静态免费)
+    credit_card: "no"
+    china: ok
+    china_note: 中文文档齐全,可用支付宝付费升级,亚太节点速度好
+    indie: 5
+    tags: [华人团队, 中文界面, 部署]
+  - name: Surge.sh
+    url: https://surge.sh
+    desc: 命令行一条 `surge` 即发布,做 demo 和临时页面最快。
+    free_quota: 无限项目、自定义域名、免费 SSL(*.surge.sh)
+    credit_card: "no"
+    china: partial
+    indie: 3
+    tags: [CLI, 快速发布]
+  - name: Firebase Hosting
+    url: https://firebase.google.com/products/hosting
+    desc: Google 系静态托管,和 Firestore/Auth 全家桶联动方便。
+    free_quota: 10GB 存储、360MB/天 流量、自定义域名与 SSL
+    credit_card: "no"
+    china: blocked
+    china_note: Google 系服务国内无法直连,面向海外用户可放心用
+    indie: 3
+    tags: [Google, 全家桶]
