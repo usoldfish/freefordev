@@ -1,0 +1,56 @@
+key: design
+name: 设计 / 素材工具
+icon: 🎨
+order: 17
+desc: 不会设计也能出活的免费工具,做产品界面和内容封面都靠它们。
+services:
+  - name: Figma
+    url: https://www.figma.com
+    desc: UI 设计协作标准,免费层个人做产品原型完全够。
+    free_quota: 免费:3 个协作设计文件、个人草稿不限、无限查看者
+    credit_card: "no"
+    china: ok
+    china_note: 国内可直连,加载偶慢
+    indie: 5
+    tags: [UI 设计, 协作]
+  - name: Canva
+    url: https://www.canva.com
+    desc: 模板化设计,社媒封面、海报、Logo 快速出图,内容创作者标配。
+    free_quota: 免费版:海量模板、5GB 存储
+    credit_card: "no"
+    china: ok
+    china_note: 有本地化版本可画(canva.cn)
+    indie: 4
+    tags: [模板, 社媒素材]
+  - name: Excalidraw
+    url: https://excalidraw.com
+    desc: 手绘风白板,画架构图、示意图颜值高,开源免费无需登录。
+    free_quota: 完全免费开源
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [白板, 图表, 开源]
+  - name: Photopea
+    url: https://www.photopea.com
+    desc: 浏览器里的 Photoshop,打开 PSD 改图不装软件,免费带广告。
+    free_quota: 全功能免费(带侧边广告)
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [修图, PSD]
+  - name: Iconify
+    url: https://iconify.design
+    desc: 20 万+ 开源图标一站集齐,一行代码按需加载,前端图标终极方案。
+    free_quota: 完全免费开源
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [图标, 开源]
+  - name: shots.so
+    url: https://shots.so
+    desc: 把截图套上精美 mockup,做产品宣传图、App Store 素材效率极高。
+    free_quota: 核心功能免费
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [截图美化, 宣传图]
