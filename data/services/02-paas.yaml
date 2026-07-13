@@ -1,0 +1,74 @@
+key: paas
+name: 应用托管 / PaaS
+icon: 🚀
+order: 2
+desc: 跑后端、API、容器的托管平台。注意:近年免费层普遍缩水,标注以 2026-07 核实为准。
+services:
+  - name: Render
+    url: https://render.com
+    desc: Heroku 精神继承者,三大 PaaS 中唯一保留永久免费 Web 服务的平台。
+    free_quota: 免费 Web 服务(512MB 内存,15 分钟无流量后休眠,冷启动 30-60 秒)+ 免费 PostgreSQL(30 天)
+    credit_card: "no"
+    china: partial
+    indie: 5
+    tags: [PaaS, 后端, 免费实例]
+  - name: Koyeb
+    url: https://www.koyeb.com
+    desc: 欧洲 Serverless 容器平台,免费层可跑一个常驻小服务。
+    free_quota: 1 个免费 Web 服务(512MB)+ 1 个免费 PostgreSQL(50 小时/月)
+    credit_card: "no"
+    china: partial
+    indie: 4
+    tags: [容器, Serverless]
+  - name: Railway
+    url: https://railway.com
+    desc: 体验极佳的部署平台,但已无免费层——只有一次性 $5 试用金,用完需绑卡。
+    free_quota: 仅一次性 $5 试用额度;Hobby $5/月(含 $5 用量)
+    credit_card: "yes"
+    china: partial
+    china_note: 2026 年起取消预付费,必须绑后付费银行卡
+    indie: 3
+    tags: [PaaS, 试用金]
+  - name: Fly.io
+    url: https://fly.io
+    desc: 全球边缘部署容器,技术优秀,但 2024 年起新用户已无免费额度。
+    free_quota: 无免费层;新用户仅 7 天/2 VM 小时试用,之后按量付费
+    credit_card: "yes"
+    china: partial
+    indie: 2
+    tags: [边缘计算, 容器]
+  - name: Google Cloud Run
+    url: https://cloud.google.com/run
+    desc: 按请求计费的容器平台,免费额度对低流量 API 几乎等于白嫖。
+    free_quota: 每月 200 万次请求、36 万 GB-秒内存、18 万 vCPU-秒
+    credit_card: "yes"
+    china: blocked
+    china_note: 注册 GCP 需绑外币卡;服务本身国内无法直连
+    indie: 3
+    tags: [Google, 容器, 按量]
+  - name: Oracle Cloud Free Tier
+    url: https://www.oracle.com/cloud/free/
+    desc: 业界最慷慨的永久免费 VPS:4 核 ARM + 24GB 内存,白嫖神话(但注册风控严)。
+    free_quota: 永久免费:4 OCPU ARM + 24GB 内存、2 台 AMD 小实例、200GB 存储、10TB 流量/月
+    credit_card: "yes"
+    china: ok
+    china_note: 可选东京/首尔/新加坡区域,国内直连速度可接受;注册风控严格,可能需多次尝试
+    indie: 4
+    tags: [VPS, ARM, 永久免费]
+  - name: Deno Deploy
+    url: https://deno.com/deploy
+    desc: Deno 官方边缘运行时,TypeScript 原生,部署 API/机器人很顺手。
+    free_quota: 免费计划:100 万次请求/月、100GB 流量/月
+    credit_card: "no"
+    china: partial
+    indie: 4
+    tags: [TypeScript, 边缘计算]
+  - name: Hugging Face Spaces
+    url: https://huggingface.co/spaces
+    desc: 免费托管 AI demo(Gradio/Streamlit/Docker),发 AI 小工具引流利器。
+    free_quota: 免费 CPU 实例(2 核 16GB)不限数量,闲置休眠
+    credit_card: "no"
+    china: blocked
+    china_note: 国内无法直连 huggingface.co,可用镜像 hf-mirror.com 下载模型
+    indie: 4
+    tags: [AI, Demo, Gradio]
