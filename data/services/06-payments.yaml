@@ -1,0 +1,60 @@
+key: payments
+name: 支付 / 变现
+icon: 💰
+order: 6
+desc: 按交易抽成、无月费的收款方案。重点标注对中国大陆主体的支持——这是国内 Indie 出海最大的坎。
+services:
+  - name: Creem
+    url: https://www.creem.io
+    desc: 专为独立开发者设计的 MoR(记录商户),明确支持中国开发者收款,Indie 圈口碑好。
+    free_quota: 无月费,按交易抽成;MoR 模式代缴全球销售税
+    credit_card: "no"
+    china: ok
+    china_note: 明确接受中国大陆开发者,支持提现到国内,出海收款首选之一
+    indie: 5
+    tags: [MoR, 出海收款, 中国友好]
+  - name: Paddle
+    url: https://www.paddle.com
+    desc: 老牌 MoR,代处理全球税务和合规,SaaS 订阅收款主流选择,接受中国主体申请。
+    free_quota: 无月费,按交易约 5% + $0.50 抽成
+    credit_card: "no"
+    china: ok
+    china_note: 接受中国个人/公司申请(需英文材料,审核较严)
+    indie: 5
+    tags: [MoR, SaaS, 订阅]
+  - name: Lemon Squeezy
+    url: https://www.lemonsqueezy.com
+    desc: 被 Stripe 收购的 MoR,卖数字产品和 License 很顺手,对新手友好。
+    free_quota: 无月费,按交易 5% + $0.50 抽成
+    credit_card: "no"
+    china: partial
+    china_note: 接受中国开发者但审核收紧,建议备好完整英文资料
+    indie: 4
+    tags: [MoR, 数字产品]
+  - name: Stripe
+    url: https://stripe.com
+    desc: 全球支付基础设施之王,API 体验最佳;但不支持中国大陆主体直接开户。
+    free_quota: 无月费,按交易 2.9% + $0.30
+    credit_card: "no"
+    china: partial
+    china_note: 需海外公司主体(常见做法:美国 LLC / 香港公司),大陆个人无法直接开户
+    indie: 4
+    tags: [支付, API, 需海外主体]
+  - name: Gumroad
+    url: https://gumroad.com
+    desc: 最简单的数字产品售卖平台,挂链接就能卖,适合课程/模板/电子书试水。
+    free_quota: 无月费,按交易 10% 抽成(费率高但零门槛)
+    credit_card: "no"
+    china: partial
+    china_note: 收款需 PayPal/Payoneer 等渠道中转
+    indie: 4
+    tags: [数字产品, 零门槛]
+  - name: PayPal
+    url: https://www.paypal.com
+    desc: 全球通用的收款兑底方案,中国大陆可注册商家账户提现到国内银行。
+    free_quota: 无月费,跨境交易约 4.4% + 固定费
+    credit_card: "no"
+    china: ok
+    china_note: 大陆可注册,提现需结汇,费率偏高
+    indie: 3
+    tags: [收款, 跨境]
