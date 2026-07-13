@@ -1,0 +1,90 @@
+key: ai
+name: AI / LLM API
+icon: 🤖
+order: 12
+desc: 大模型 API 的免费额度与免费模型,做 AI 工具产品的核心原料。变动极快,以官网为准。
+services:
+  - name: Google AI Studio(Gemini API)
+    url: https://aistudio.google.com
+    desc: Gemini 免费 API 额度业界最大方,快速验证 AI 产品想法首选。
+    free_quota: 免费层:Gemini Flash 系列每天上千次请求(按模型不同),含多模态
+    credit_card: "no"
+    china: blocked
+    china_note: 国内无法直连,需海外服务器中转
+    indie: 5
+    tags: [Gemini, 多模态, 免费额度]
+  - name: Groq
+    url: https://groq.com
+    desc: LPU 推理快到飞起,开源模型(Llama 等)免费额度可观,做实时应用体验好。
+    free_quota: 免费层:按模型每天数千至数万 token 请求限额
+    credit_card: "no"
+    china: partial
+    indie: 4
+    tags: [推理, 开源模型, 高速]
+  - name: OpenRouter
+    url: https://openrouter.ai
+    desc: 一个 API 聚合所有主流模型,常年有多个免费模型可白嫖,切换零成本。
+    free_quota: 多个 :free 后缀模型免费(每天限次),统一 API
+    credit_card: "no"
+    china: partial
+    indie: 5
+    tags: [聚合, 免费模型]
+  - name: 硅基流动 SiliconFlow
+    url: https://siliconflow.cn
+    desc: 国内模型聚合平台,多个小模型长期免费,注册送额度,国内直连低延迟。
+    free_quota: Qwen 等多个 9B 以下模型免费调用,注册送 14 元额度
+    credit_card: "no"
+    china: ok
+    china_note: 国内直连,支持支付宝,做面向国内的 AI 产品首选
+    indie: 5
+    tags: [国内, 聚合, 免费模型]
+  - name: 智谱 AI(GLM)
+    url: https://open.bigmodel.cn
+    desc: 清华系大模型,GLM-Flash 系列免费调用,中文能力强。
+    free_quota: GLM-4-Flash / GLM-4V-Flash 等 Flash 系列模型免费
+    credit_card: "no"
+    china: ok
+    china_note: 国内直连,实名后即用
+    indie: 4
+    tags: [国内, GLM, 免费模型]
+  - name: DeepSeek
+    url: https://platform.deepseek.com
+    desc: 性价比之王,非免费但价格低到近似免费,推理能力强,出海国内两相宜。
+    free_quota: 无免费层,但价格极低(输入约 ¥1-4/百万 token),注册即用
+    credit_card: "no"
+    china: ok
+    indie: 5
+    tags: [国内, 低价, 推理]
+  - name: Cloudflare Workers AI
+    url: https://developers.cloudflare.com/workers-ai/
+    desc: 在 Cloudflare 边缘跑开源模型,与 Workers 无缝集成,免费额度每天刷新。
+    free_quota: 每天 1 万 Neuron 免费额度(可跑 Llama、Whisper、SD 等)
+    credit_card: "no"
+    china: partial
+    indie: 4
+    tags: [边缘 AI, 开源模型]
+  - name: Mistral La Plateforme
+    url: https://mistral.ai
+    desc: 欧洲开源模型厂,API 有免费实验层,小模型质量能打。
+    free_quota: 免费层:1 请求/秒、10 亿 token/月(实验用途)
+    credit_card: "no"
+    china: partial
+    indie: 3
+    tags: [开源模型, 欧洲]
+  - name: Hugging Face
+    url: https://huggingface.co
+    desc: AI 界 GitHub,模型/数据集托管免费,Inference API 有免费额度。
+    free_quota: 模型与数据集托管免费、Inference API 少量免费额度、Spaces 免费 CPU
+    credit_card: "no"
+    china: blocked
+    china_note: 国内需镜像站 hf-mirror.com
+    indie: 4
+    tags: [模型托管, 社区]
+  - name: Ollama
+    url: https://ollama.com
+    desc: 本地跑开源大模型的标准工具,自己电脑就是免费额度,隐私零风险。
+    free_quota: 完全免费开源,本地运行无任何限制
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [本地, 开源, 隐私]
