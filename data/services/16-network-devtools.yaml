@@ -1,0 +1,83 @@
+key: network-devtools
+name: 内网穿透 / 开发工具 / API 数据
+icon: 🛠️
+order: 16
+desc: 本地调试、抓数据、测 API 的趁手兵器。
+services:
+  - name: Cloudflare Tunnel
+    url: https://www.cloudflare.com/products/tunnel/
+    desc: 免费内网穿透,本地服务安全暴露到公网,不限流量,demo 演示利器。
+    free_quota: 免费、不限隧道数与流量(需 Cloudflare 托管域名)
+    credit_card: "no"
+    china: partial
+    indie: 5
+    tags: [内网穿透, 免费流量]
+  - name: ngrok
+    url: https://ngrok.com
+    desc: 内网穿透代名词,一条命令开隧道,免费层带固定域名 1 个。
+    free_quota: 1 个静态域名、1GB 流量/月、20 万次请求
+    credit_card: "no"
+    china: partial
+    china_note: 国内可用但延迟高,国内场景可换 frp/花生壳
+    indie: 4
+    tags: [内网穿透, 调试]
+  - name: Tailscale
+    url: https://tailscale.com
+    desc: 零配置组网(WireGuard),自己设备连成私有网络,远程开发神器。
+    free_quota: 个人免费:3 用户、100 台设备
+    credit_card: "no"
+    china: partial
+    china_note: 国内可用,中继节点在海外时延迟偏高,可自建 DERP
+    indie: 5
+    tags: [组网, WireGuard, 远程]
+  - name: frp
+    url: https://github.com/fatedier/frp
+    desc: 国人开发的开源内网穿透,自备 VPS 即全免费,国内使用最广。
+    free_quota: 完全开源免费(需自备有公网 IP 的服务器)
+    credit_card: "no"
+    china: ok
+    china_note: 国人作品,搭配国内轻量云主机延迟最低
+    indie: 4
+    tags: [开源, 内网穿透, 国人作品]
+  - name: Postman
+    url: https://www.postman.com
+    desc: API 调试标准工具,免费层个人使用足够。
+    free_quota: 免费:基础协作、每月 1000 次 Mock/监控调用
+    credit_card: "no"
+    china: ok
+    indie: 3
+    tags: [API 调试]
+  - name: Hoppscotch
+    url: https://hoppscotch.io
+    desc: 开源版 Postman,网页即开即用,轻快无广告,可自托管。
+    free_quota: 核心功能完全免费,开源可自托管
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [API 调试, 开源]
+  - name: Firecrawl
+    url: https://www.firecrawl.dev
+    desc: 把网页抓成干净 Markdown 的 API,做 AI 应用数据源的热门选择。
+    free_quota: 免费 500 Credits(一次性)
+    credit_card: "no"
+    china: ok
+    indie: 4
+    tags: [爬虫, AI 数据, API]
+  - name: Jina Reader
+    url: https://jina.ai/reader/
+    desc: URL 前加 r.jina.ai/ 即返回页面 Markdown,免费额度大,华人团队出品。
+    free_quota: 免费(无 Key 限速);注册送 1000 万 token
+    credit_card: "no"
+    china: ok
+    china_note: Jina AI 为华人创办团队
+    indie: 4
+    tags: [网页转 Markdown, AI, 华人团队]
+  - name: RSSHub
+    url: https://docs.rsshub.app
+    desc: 万物皆可 RSS 的开源项目,给没有 RSS 的网站生成订阅源,信息监控基建。
+    free_quota: 开源免费,自托管无限制;公共实例免费但不稳
+    credit_card: "no"
+    china: partial
+    china_note: 公共实例国内被墙,自托管即可;国人主导的开源项目
+    indie: 4
+    tags: [RSS, 开源, 信息聚合]
