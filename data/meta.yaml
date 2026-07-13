@@ -1,0 +1,6 @@
+# 站点元信息 —— 建好 GitHub 仓库后把 repo 改成你的地址
+site_name: FreeDev 中文版
+tagline: 开发者免费服务情报库 · 为 Indie Hacker 而生
+repo: https://github.com/usoldfish/freefordev
+site_url: https://usoldfish.github.io/freefordev/
+upstream: https://github.com/ripienaar/free-for-dev
