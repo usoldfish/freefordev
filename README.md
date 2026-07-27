@@ -319,4 +319,4 @@
 
 所有数据在 [`data/services/`](data/services/) 的 YAML 文件中,改一个字段、提一个 PR 即可。新增服务请填全部字段(见现有条目格式)。
 
-*本 README 由 `scripts/build.py` 自动生成于 2026-07-20,请勿手改。*
+*本 README 由 `scripts/build.py` 自动生成于 2026-07-27,请勿手改。*

@@ -18,6 +18,7 @@ Adapty.io
 AdminMart
 AhaSend
 Aiven
+AlertKick
 AllRatesToday
 AlphaAI
 Alwaysdata
@@ -28,6 +29,7 @@ AndroidIDE
 AnonAddy
 Antideo
 AnyDesk
+Anypost
 Apache Netbeans
 ApiFlash
 Apify
@@ -101,6 +103,7 @@ Calendar Icons Generator
 Calendarific
 Calendly
 Campaigns
+Canny Pigeons
 Canopy
 Canva
 CarAPI.dev
@@ -152,6 +155,7 @@ CodedThemes
 Codeground
 Cognitive Search
 Cognitive Services
+Cohesivity
 CoinMarketCap
 Colaboratory
 Comet Opik
@@ -223,6 +227,7 @@ DigitalOcean
 DigitalPlat
 Discord
 Disease.sh
+DistApp
 Django-tutorial.dev
 DocBeacon
 DocPenny
@@ -325,6 +330,7 @@ Geolocated.io
 GetUpdraft
 GetVM
 Getscreen.me
+GhostChat
 GitBook
 GitDailies
 GitGuardian
@@ -338,11 +344,11 @@ GlitchTip
 Glob tester
 GoFile.io
 GoatCounter
+Google AI Studio
 Google Analytics
 Google Cloud Platform
 Google Colab
 Google Fonts
-Google Gemini API
 Grafana Cloud
 GraphComment
 GraphQL Inspector
@@ -573,6 +579,7 @@ Pinata IPFS
 Pinggy
 Pingmeter.com
 Pingram.io
+Pingzo
 Pixela
 Plane
 Plasmic
@@ -1186,6 +1193,7 @@ slack.com
 smartforms.dev
 smartlook.com
 smartmockups.com
+snill.ai
 snippets.uilicious.com
 sonarcloud.io
 sslip.io
