@@ -70,6 +70,7 @@ Bearer
 Beeceptor
 Befonts
 Bencher
+Beste
 Better Stack
 BigDataCloud
 BinShare.net
@@ -87,7 +88,6 @@ Braintrust
 Brave Search API
 Brevo
 Browse AI
-BrowserCat
 Bubble
 BudiBase
 BugBug
@@ -153,6 +153,7 @@ Codeac.io
 Codeberg
 CodedThemes
 Codeground
+Codex
 Cognitive Search
 Cognitive Services
 Cohesivity
@@ -245,13 +246,10 @@ Dwh.dev
 DynamicDocs
 DynamoDB
 Dynv6.com
-EBS
-EC2
 EMQX Serverless
 ETLR
 Earnings Feed
 Eclipse Che
-Elastic Load Balancing
 Email
 EmailGuard
 EmailJS
@@ -338,7 +336,6 @@ GitGud
 GitHub
 GitHub Education
 Gizmo Analytics
-Glacier
 Glauca
 GlitchTip
 Glob tester
@@ -443,7 +440,6 @@ LabEx
 Lambda
 LangWatch
 Langfuse
-Langtrace
 Lastest
 LatLng
 Latitude
@@ -622,7 +618,6 @@ QuickChart
 QuickType.io
 Quidlo Timesheets
 R2
-RDS
 ROBOHASH
 Radmin VPN
 Raindrop.io
@@ -632,6 +627,7 @@ Reactive Resume
 RedHat for Developers
 RedirHub
 Reducto
+Reezn.io
 RemSupp
 Remarkbox
 Rendi
@@ -659,7 +655,6 @@ RunMyJob
 Runframe
 RustDesk
 Rybbit
-S3
 SES
 SMSGate
 SNS
@@ -682,16 +677,15 @@ Sender
 Sendpulse
 SerpApi
 Servervana
+Service Bus
 Sflow
 Shadcn Studio
 Shake
-Sheetson
 Shipfox
 Shortcut
 Shotpipe
 Showtime
 Sign
-SikkerAPI
 SikkerKey
 Simple Observability
 SimpleBackups.com
@@ -815,7 +809,6 @@ Versionfeeds
 Versoly
 Vidhook
 Virgil Security
-Virtual Machines
 Visual Debug
 Visual Studio Code
 Visual Studio Community
@@ -857,6 +850,7 @@ Zenable
 Zenscrape
 Zeplin
 Zero Trust & SASE
+ZeroSMTP
 ZeroTier
 Zip-Codes
 Zipcodebase
@@ -897,7 +891,6 @@ bonsai.io
 boomurl
 bootstrapcdn.com
 borgbase.com
-btunnel
 buddy.works
 bugfender.com
 bugsnag.com
@@ -1092,7 +1085,6 @@ memfault.com
 meterian.io
 micro-jaymock
 microlink.io
-mockable.io
 mockaroo
 mouseflow.com
 nTask
@@ -1143,7 +1135,6 @@ pp.ua
 projectlocker.com
 pterocos
 pubnub.com
-pushbots.com
 pusher.com
 pythonanywhere.com
 pyup.io
@@ -1215,6 +1206,7 @@ taiga.io
 talky.io
 taskade.com
 teamwork.com
+telemetry.dev
 teleretro.com
 temp-mail.io
 testingbot.com

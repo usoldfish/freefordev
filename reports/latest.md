@@ -1,7 +1,7 @@
-# 每周巡检报告 2026-07-27
+# 每周巡检报告 2026-08-03
 
 - 检查链接:130 个;疑似失效:0;异常状态:1
-- 上游 free-for.dev 共 1269 条;新增 9,移除 1
+- 上游 free-for.dev 共 1261 条;新增 6,移除 14
 
 ## ⚠️ 异常状态码
 
@@ -9,16 +9,26 @@
 
 ## 🆕 上游新增服务(评估是否收录)
 
-- AlertKick
-- Anypost
-- Canny Pigeons
-- Cohesivity
-- DistApp
-- GhostChat
-- Google AI Studio
-- Pingzo
-- snill.ai
+- Beste
+- Codex
+- Reezn.io
+- Service Bus
+- ZeroSMTP
+- telemetry.dev
 
 ## 🗑️ 上游移除服务(评估是否下架)
 
-- Google Gemini API
+- BrowserCat
+- EBS
+- EC2
+- Elastic Load Balancing
+- Glacier
+- Langtrace
+- RDS
+- S3
+- Sheetson
+- SikkerAPI
+- Virtual Machines
+- btunnel
+- mockable.io
+- pushbots.com
