@@ -29,6 +29,7 @@ AndroidIDE
 AnonAddy
 Antideo
 AnyDesk
+AnyHook
 Anypost
 Apache Netbeans
 ApiFlash
@@ -85,6 +86,7 @@ Brackets
 Braid
 Brainboard
 Braintrust
+BrandIcons
 Brave Search API
 Brevo
 Browse AI
@@ -341,6 +343,7 @@ GlitchTip
 Glob tester
 GoFile.io
 GoatCounter
+Gonka Broker
 Google AI Studio
 Google Analytics
 Google Cloud Platform
@@ -443,6 +446,7 @@ Langfuse
 Lastest
 LatLng
 Latitude
+Layerbase
 Lazarus
 LeanCloud
 LibreQR
@@ -563,6 +567,7 @@ Pages
 Paiza
 PandaStack
 ParityVend
+Parsec
 Parseur
 Parsio.io
 Pastefy
@@ -628,6 +633,7 @@ RedHat for Developers
 RedirHub
 Reducto
 Reezn.io
+Reloop
 RemSupp
 Remarkbox
 Rendi
@@ -660,6 +666,7 @@ SMSGate
 SNS
 SQS
 SSR (Server-side Rendering) Checker
+SVGicons.com
 SYNCDATE
 Sanity.io
 Scalekit
@@ -681,6 +688,7 @@ Service Bus
 Sflow
 Shadcn Studio
 Shake
+Sherlo
 Shipfox
 Shortcut
 Shotpipe
