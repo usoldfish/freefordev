@@ -1,7 +1,7 @@
-# 每周巡检报告 2026-08-17
+# 每周巡检报告 2026-08-24
 
 - 检查链接:130 个;疑似失效:0;异常状态:1
-- 上游 free-for.dev 共 1281 条;新增 12,移除 0
+- 上游 free-for.dev 共 1284 条;新增 4,移除 1
 
 ## ⚠️ 异常状态码
 
@@ -9,15 +9,11 @@
 
 ## 🆕 上游新增服务(评估是否收录)
 
-- Atomic Mail
-- CertPost
-- Harvis.dev
-- NASdisks Drive Data API
-- Parsivex
-- Pexafy
-- Runsite
-- ShipStatic
-- Stormkit
-- XFlux
-- hyperserve.io
-- inspect.software
+- Cloud Cost Analyzer
+- LastPing
+- Sample Files
+- finlight
+
+## 🗑️ 上游移除服务(评估是否下架)
+
+- AndroidIDE

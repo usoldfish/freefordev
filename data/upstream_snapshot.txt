@@ -25,7 +25,6 @@ Alwaysdata
 Amazon Web Services
 Android Studio
 AndroidFileHost
-AndroidIDE
 AnonAddy
 Antideo
 AnyDesk
@@ -135,6 +134,7 @@ Cliq
 Clockify
 Clockwork Micro
 Cloud 66
+Cloud Cost Analyzer
 Cloud-IAM
 CloudCertPrep
 CloudFront
@@ -446,6 +446,7 @@ LabEx
 Lambda
 LangWatch
 Langfuse
+LastPing
 Lastest
 LatLng
 Latitude
@@ -675,6 +676,7 @@ SQS
 SSR (Server-side Rendering) Checker
 SVGicons.com
 SYNCDATE
+Sample Files
 Sanity.io
 Scalekit
 Scraper's Proxy
@@ -989,6 +991,7 @@ figma.com
 file.io
 filebase.com
 filess.io
+finlight
 fivenines.io
 flat.social
 flightcontrol.dev
