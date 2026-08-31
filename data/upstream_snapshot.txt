@@ -213,6 +213,7 @@ Dataimporter.io
 Datalore
 DatoCMS
 Datree
+DeadBro
 DeepAR
 DeepLearning.AI Short Courses
 DeepSource
@@ -303,6 +304,7 @@ Form.taxi
 FormKeep.com
 FormNX
 FormatJSONOnline.com
+Formboost.app
 Formcarry.com
 Formester.com
 Forminit
@@ -411,6 +413,7 @@ Interactive CV
 Internet.nl
 IntoDNS.ai
 Invantive Cloud
+Is It Disposable
 Iubenda
 JDoodle
 JSON IP
@@ -423,6 +426,7 @@ JSONing
 Jam
 Jira
 Jotform.com
+JoyDemo
 JustBlogged
 Kaggle
 KaiMail
@@ -435,10 +439,10 @@ Khan Academy
 KillBait API
 Killer Coda
 Kinde
-Kinsta Static Site Hosting
 Kitemaker.co
 Kiter.app
 Knocket
+Koyeb
 Kreya
 Kumu.io
 Kwes.io
@@ -450,6 +454,7 @@ LastPing
 Lastest
 LatLng
 Latitude
+LayerCall
 Layerbase
 Lazarus
 LeanCloud
@@ -615,6 +620,7 @@ Proton Pass
 Proxmint GeoIP
 ProxySentry
 Public Cloud Threat Intelligence
+Publora
 Pullflow
 Pulse.red
 Pulsetic
@@ -643,6 +649,7 @@ Reezn.io
 Reloop
 RemSupp
 Remarkbox
+Renderwolf
 Rendi
 Repeato
 Replit
@@ -671,6 +678,7 @@ RustDesk
 Rybbit
 SES
 SMSGate
+SMTPfast
 SNS
 SQS
 SSR (Server-side Rendering) Checker
@@ -811,6 +819,7 @@ UXtweak.com
 Umami
 UniRateAPI
 Unicorn Platform
+Unitpost
 Updrafts.app
 Upstash
 UptimeObserver.com
@@ -945,6 +954,7 @@ counter.dev
 courier.com
 coveralls.io
 cron-job.org
+cronalive.com
 cronitor.io
 crowdin.com
 crypteron.com
@@ -986,6 +996,7 @@ eversql.com
 everystep-automation.com
 exceptionless
 exchangerate-api.com
+faable.com
 feedback.fish
 figma.com
 file.io
@@ -1193,6 +1204,7 @@ scrutinizer-ci.com
 seafile.com
 searchly.com
 semanticdiff.com
+semgrep
 sentry.io
 seotest.me
 serveo
