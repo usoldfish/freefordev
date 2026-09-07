@@ -447,6 +447,7 @@ Kreya
 Kumu.io
 Kwes.io
 LabEx
+Labelixa
 Lambda
 LangWatch
 Langfuse
@@ -462,6 +463,7 @@ LibreQR
 Linear
 Lingo.dev
 Linkinize
+LiveCodes
 Load Balancer
 Loadly
 LocalCert
@@ -489,6 +491,7 @@ Maileroo
 Mailjet
 Mailtrap.io
 Make
+Makeform
 ManageEngine Log360 Cloud
 MantleDB
 MarionetteOps.com
@@ -737,6 +740,7 @@ SoloLearn
 SourceForge
 Spacelift
 Sprints
+SqlInt
 Sqlable
 Squash Labs
 Squidex
@@ -845,10 +849,12 @@ WPJack
 Wachete
 Waitlio
 WaiverStevie.com
+Watchgoose
 Wave Terminal
 WeatherXu
 Web3Forms
 WebScraping.AI
+WebTerm Learn
 Webex
 Webflow
 Webstudio
