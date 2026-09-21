@@ -157,12 +157,9 @@ Codeac.io
 Codeberg
 CodedThemes
 Codeground
-Codex
 Cognitive Search
 Cognitive Services
 Cohesivity
-CoinMarketCap
-Colaboratory
 Comet Opik
 CometML
 CommandBar
@@ -208,7 +205,6 @@ DNSExit
 DNSHE
 Daestro
 Data Fetcher
-Data Miner
 Dataimporter.io
 Datalore
 DatoCMS
@@ -220,10 +216,13 @@ DeepSource
 Deepnote
 Deno Deploy
 Dependabot
+Deplexo
 Descope
 Desk
 Dev.to
+DevDome
 DevNet Academy
+DevOpsLesson
 DevTest Labs
 DevToolLab
 DhiWise
@@ -267,6 +266,7 @@ Emitlo
 Engage
 Ente
 Esper
+Estuary
 EtherealMail
 Event Grid
 Everything Fonts
@@ -276,7 +276,6 @@ Exercism
 Expensify
 Export SDK
 Expose
-ExtendsClass
 FOSSA
 FabForm
 Feathery
@@ -303,7 +302,6 @@ Form Plume
 Form.taxi
 FormKeep.com
 FormNX
-FormatJSONOnline.com
 Formboost.app
 Formcarry.com
 Formester.com
@@ -419,9 +417,7 @@ JDoodle
 JSON IP
 JSON to Table
 JSON2Video
-JSONGrid
 JSONPlaceholder
-JSONSwiss
 JSONing
 Jam
 Jira
@@ -436,14 +432,12 @@ Ketch
 Keybase
 Keywords AI
 Khan Academy
-KillBait API
 Killer Coda
 Kinde
 Kitemaker.co
 Kiter.app
 Knocket
 Koyeb
-Kreya
 Kumu.io
 Kwes.io
 LabEx
@@ -640,7 +634,6 @@ QuickChart
 QuickType.io
 Quidlo Timesheets
 R2
-ROBOHASH
 Radmin VPN
 Raindrop.io
 ReTool
@@ -691,8 +684,6 @@ SYNCDATE
 Sample Files
 Sanity.io
 Scalekit
-Scraper's Proxy
-ScrapingAnt
 Screen Sharing via Browser
 Screenshot Scout
 ScrumFast
@@ -703,7 +694,6 @@ SendBridge Mail Tester
 SendStreak
 Sender
 Sendpulse
-SerpApi
 Servervana
 Service Bus
 Sflow
@@ -733,6 +723,7 @@ Smart Grow Vault
 SmartParse
 Smartcar API
 SnapAPI
+SnapEnv
 SnapShooter
 Socket
 Sofodata
@@ -742,7 +733,6 @@ SourceForge
 Spacelift
 Sprints
 SqlInt
-Sqlable
 Squash Labs
 Squidex
 Stack Auth
@@ -800,6 +790,7 @@ TimeCamp
 TinaCMS
 TinyMCE
 Tinybird
+Tinyfish
 Toggl
 Toggled.dev
 Tolgee
@@ -860,6 +851,7 @@ WebScraping.AI
 WebTerm Learn
 Webex
 Webflow
+Webhooker
 Webstudio
 Webvizio
 Weights & Biases
@@ -885,14 +877,11 @@ YouTrack
 ZITADEL Cloud
 Zeitio
 Zenable
-Zenscrape
 Zeplin
 Zero Trust & SASE
 ZeroSMTP
 ZeroTier
-Zip-Codes
 Zipcodebase
-Zipcodestack
 Zoho
 Zoho Apptics
 Zoho Assist
@@ -988,7 +977,6 @@ dns.he.net
 dnspod.com
 domcloud.co
 downtimemonkey.com
-drawDB
 drumbeats.io
 duckdns.org
 duo.com
@@ -1130,6 +1118,7 @@ micro-jaymock
 microlink.io
 mockaroo
 mouseflow.com
+myspec.dev
 nTask
 namecheap.com
 netdata.cloud
@@ -1143,7 +1132,6 @@ noip
 noip.at
 nominatim.org
 npoint.io
-numlookupapi.com
 numverify
 onesignal.com
 opencagedata.com
@@ -1176,6 +1164,7 @@ point.poker
 positionstack
 pp.ua
 projectlocker.com
+prquorum.com
 pterocos
 pubnub.com
 pusher.com
