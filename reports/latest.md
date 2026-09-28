@@ -1,7 +1,12 @@
-# 每周巡检报告 2026-09-21
+# 每周巡检报告 2026-09-28
 
-- 检查链接:130 个;疑似失效:0;异常状态:1
-- 上游 free-for.dev 共 1294 条;新增 9,移除 20
+- 检查链接:130 个;疑似失效:2;异常状态:1
+- 上游 free-for.dev 共 1305 条;新增 12,移除 1
+
+## ❌ 疑似失效链接(请人工确认)
+
+- [DNSPod](https://www.dnspod.cn)(CDN / DNS / 域名 / 存储)— 状态 0 <urlopen error [Errno 101] Network is unreachable>
+- [Server酱](https://sct.ftqq.com)(自动化 / 消息通知)— 状态 0 <urlopen error timed out>
 
 ## ⚠️ 异常状态码
 
@@ -9,35 +14,19 @@
 
 ## 🆕 上游新增服务(评估是否收录)
 
-- Deplexo
-- DevDome
-- DevOpsLesson
-- Estuary
-- SnapEnv
-- Tinyfish
-- Webhooker
-- myspec.dev
-- prquorum.com
+- Email Spam Tester
+- Formfeed
+- Ironfang Render
+- Lucid Forms
+- ReviveDB
+- SendRaven
+- SnapDeploy
+- Stats4U
+- URLpipe
+- flaky
+- timezone.io
+- watchcron.com
 
 ## 🗑️ 上游移除服务(评估是否下架)
 
-- Codex
-- CoinMarketCap
-- Colaboratory
-- Data Miner
-- ExtendsClass
-- FormatJSONOnline.com
-- JSONGrid
-- JSONSwiss
-- KillBait API
-- Kreya
-- ROBOHASH
-- Scraper's Proxy
-- ScrapingAnt
-- SerpApi
-- Sqlable
-- Zenscrape
-- Zip-Codes
-- Zipcodestack
-- drawDB
-- numlookupapi.com
+- Renderwolf
