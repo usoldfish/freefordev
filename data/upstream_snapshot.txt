@@ -43,7 +43,6 @@ Application Services
 Apply.build
 Aptabase
 Argos
-Arize AI
 Arize AX
 Aserto
 Atomic Mail
@@ -100,6 +99,7 @@ Bunny
 Burnermail
 Buttondown
 CORS-Tester
+Cabin
 CacheFly
 Calendar Icons Generator
 Calendarific
@@ -239,6 +239,7 @@ DocPenny
 Docker Hub
 Docs
 Doczilla
+DomainCanary
 Doppio
 Doppler
 Doqlo
@@ -270,6 +271,7 @@ Esper
 Estuary
 EtherealMail
 Event Grid
+Everframe
 Everything Fonts
 Excalidraw
 Exchange Rate API
@@ -588,6 +590,7 @@ Pendulums
 Permit.io
 Pexafy
 PhantomJsCloud
+Pharos
 Phase Two
 Pika Code Screenshots
 Pinata IPFS
@@ -704,6 +707,7 @@ Service Bus
 Sflow
 Shadcn Studio
 Shake
+Sharry
 Sherlo
 ShipStatic
 Shipfox
@@ -739,7 +743,6 @@ SourceForge
 Spacelift
 Sprints
 SqlInt
-Squash Labs
 Squidex
 Stack Auth
 StackBy
@@ -774,6 +777,7 @@ TURN
 Tailscale
 Tally.so
 Tavily AI
+TeamSort
 Teamcamp
 Teamhood
 Teaminal
@@ -831,6 +835,7 @@ UptimeObserver.com
 UptimeRobot
 UseWebhook.com
 Utterances
+VPS Snaps
 VSCodium
 Vaadin
 Val Town
@@ -842,6 +847,7 @@ Versionfeeds
 Versoly
 VibeView
 Vidhook
+Vinktar
 Virgil Security
 Visual Debug
 Visual Studio Code
@@ -995,7 +1001,6 @@ element.io
 elmah.io
 embed.ly
 encore.dev
-engagespot.co
 evernote.com
 eversql.com
 everystep-automation.com
@@ -1143,6 +1148,7 @@ nominatim.org
 npoint.io
 numverify
 onesignal.com
+onomeo
 opencagedata.com
 openobserve.ai
 osmnames
@@ -1233,6 +1239,7 @@ sslip.io
 ssllabs.com
 stackblitz.com
 stadiamaps.com
+stateofpixel
 statically.io
 staticforms.xyz
 statuscake.com
@@ -1261,6 +1268,7 @@ tinypng.com
 titanapps.io
 tldraw.com
 todoist.com
+tomosu.ai
 toranproxy.com
 transfernow
 transifex.com
@@ -1280,6 +1288,7 @@ vask
 vatcheckapi.com
 vatlayer
 vatnode
+velixir
 verimail.io
 veriphone
 wakatime.com
