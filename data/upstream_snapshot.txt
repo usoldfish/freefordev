@@ -16,6 +16,7 @@ Active Directory B2C
 Activepieces
 Adapty.io
 AdminMart
+AgileHero
 AhaSend
 Aiven
 AlertKick
@@ -225,6 +226,7 @@ DevNet Academy
 DevOpsLesson
 DevTest Labs
 DevToolLab
+Dexio
 DhiWise
 Diawi
 DiffText
@@ -309,6 +311,7 @@ Formboost.app
 Formcarry.com
 Formester.com
 Formfeed
+Formgong
 Forminit
 Forms
 Formspree.io
@@ -394,6 +397,7 @@ IP Geolocation API
 IP Geolocation API by ipwho.org
 IP.City
 IP2Location.io
+IP99
 IPLocate
 IPTrace
 IPinfo
@@ -545,6 +549,7 @@ Neo4j Aura
 Neocities
 Neon
 Netlify
+Network Data Labs
 News API
 Nile
 Northflank
@@ -568,6 +573,7 @@ OpenRouter
 OpenWebhook
 Oracle Cloud
 Orbisearch
+Orshot
 Ory
 Otterwatch
 Ownkube
@@ -741,11 +747,13 @@ Solo
 SoloLearn
 SourceForge
 Spacelift
+Splainly
 Sprints
 SqlInt
 Squidex
 Stack Auth
 StackBy
+StarDesk
 StatCounter
 Static Web Apps
 Stats4U
@@ -985,6 +993,7 @@ deployhq.com
 deployment.io
 developers.google.com
 diagrams.net
+disban.io
 dkimvalidator.com
 dlvr.sh
 dns.he.net
@@ -1063,6 +1072,7 @@ hyperserve.io
 icedrive.net
 image-charts.com
 imagekit.io
+imgduck.com
 imgen
 imgix
 inboxkitten.com
