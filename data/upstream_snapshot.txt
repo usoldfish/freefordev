@@ -34,6 +34,7 @@ Anypost
 Apache Netbeans
 ApiFlash
 Apify
+App AI Gateway
 App Service
 AppFit
 Appetize
@@ -237,7 +238,6 @@ Disease.sh
 DistApp
 Django-tutorial.dev
 DocBeacon
-DocPenny
 Docker Hub
 Docs
 Doczilla
@@ -290,6 +290,7 @@ FileShot.io
 Financial Data
 Firecrawl
 Fizzy
+Flagpool
 Flagsmith
 FlareWarden
 Flows
@@ -325,6 +326,7 @@ Free Professional Resume Templates & Editor
 FreeCodeCamp
 FreeFlarum
 FreeIPAPI
+Frontegg
 Full Stack Open
 FullStory.com
 Functions
@@ -373,6 +375,7 @@ Helploom
 HeroTofu.com
 Hetzner
 Hex
+HeyDeer
 HeyForm.net
 HeyRetro
 HeySpace
@@ -432,10 +435,10 @@ Jam
 Jira
 Jotform.com
 JoyDemo
+Jsonpage
 JustBlogged
 Kaggle
 KaiMail
-Karbon Sites
 Keploy
 Ketch
 Keybase
@@ -538,6 +541,7 @@ Moesif API Monetization
 MojoAuth
 MongoDB Atlas
 MonitorMonk
+Monitorable
 Mozilla Observatory
 Multi-Exit IP Address Checker
 Mutant Mail
@@ -599,6 +603,7 @@ PhantomJsCloud
 Pharos
 Phase Two
 Pika Code Screenshots
+Pin Feed
 Pinata IPFS
 Pinggy
 Pingmeter.com
@@ -647,6 +652,7 @@ QuickChart
 QuickType.io
 Quidlo Timesheets
 R2
+ROIC.ai
 Radmin VPN
 Raindrop.io
 ReTool
@@ -657,6 +663,7 @@ RedirHub
 Reducto
 Reezn.io
 Reloop
+Relvato
 RemSupp
 Remarkbox
 Rendi
@@ -759,12 +766,14 @@ Static Web Apps
 Stats4U
 Statsig
 StatusPile
+Staxa
 Stellate
 Stickies
 Storage
 Stormkit
 Storyblok
 Stytch
+SubdomainWatch
 Sublime Text
 Subscriptions
 Substack
@@ -804,6 +813,7 @@ Testspace.com
 Texterify
 The IP API
 The Odin Project
+The Vibe Hosting
 Themeselection
 TimeCamp
 TinaCMS
@@ -828,6 +838,7 @@ Tuta
 Tweek
 Typeform.com
 UI Bakery
+UI Verify
 UNPKG
 URLpipe
 UUID Generator
@@ -1115,6 +1126,7 @@ loadmill.com
 localazy.com
 localhost.run
 localizely.com
+localscreenshot
 localtonet
 localtunnel
 locationiq.com
@@ -1156,6 +1168,7 @@ noip
 noip.at
 nominatim.org
 npoint.io
+ntail.io
 numverify
 onesignal.com
 onomeo
