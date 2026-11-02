@@ -20,6 +20,7 @@ AgileHero
 AhaSend
 Aiven
 AlertKick
+AliasMail
 AllRatesToday
 AlphaAI
 Alwaysdata
@@ -118,6 +119,7 @@ CatchDoms
 CatchJS.com
 Census
 Cerbos Hub
+CertAvert
 CertKit
 CertObserver CT Search
 CertPost
@@ -241,6 +243,7 @@ Disease.sh
 DistApp
 Django-tutorial.dev
 DocBeacon
+DocSpring
 Docker Hub
 Docs
 Doczilla
@@ -289,6 +292,7 @@ Expose
 FOSSA
 FabForm
 Feathery
+Featureflip
 Fibery
 Fibo
 FileShot.io
@@ -319,6 +323,7 @@ Formester.com
 Formfeed
 Formgong
 Forminit
+Formlane
 Forms
 Formspree.io
 Formsubmit.co
@@ -332,6 +337,7 @@ FreeCodeCamp
 FreeFlarum
 FreeIPAPI
 Frontegg
+FrostyVerify
 Full Stack Open
 FullStory.com
 Functions
@@ -444,6 +450,7 @@ Jsonpage
 JustBlogged
 Kaggle
 KaiMail
+Keeper.sh
 Keploy
 Ketch
 Keybase
@@ -562,6 +569,7 @@ Netlify
 Network Data Labs
 News API
 Nile
+Nisuform
 Northflank
 Notebook
 Notification Hubs
@@ -613,6 +621,7 @@ Phase Two
 Pika Code Screenshots
 Pin Feed
 Pinata IPFS
+PingWise
 Pinggy
 Pingmeter.com
 Pingram.io
@@ -623,6 +632,7 @@ Plasmic
 Plunk
 Pocket Alert
 Pollinations.AI
+PolyDoc
 Portkey
 PostHog
 Posthook
@@ -862,10 +872,12 @@ Upstash
 UptimeObserver.com
 UptimeRobot
 UseWebhook.com
+UserNote
 Utterances
 VPS Snaps
 VSCodium
 Vaadin
+VaelMail
 Val Town
 VaocherApp QR Code Generator
 Vault
@@ -902,6 +914,7 @@ What The Diff
 Whitespace
 Wiki
 Wikifactory
+WishKit
 WorkOS
 Workers
 Workers KV
@@ -1024,6 +1037,7 @@ downtimemonkey.com
 drumbeats.io
 duckdns.org
 duo.com
+eForward
 easyretro.io
 economize.cloud
 edX
@@ -1143,6 +1157,7 @@ locationiq.com
 log.dog
 logflare.app
 logintc.com
+logoapi.sh
 logtail.com
 logzab.com
 lost-pixel.com
@@ -1164,6 +1179,7 @@ micro-jaymock
 microlink.io
 mockaroo
 mouseflow.com
+mxRaven
 myspec.dev
 nTask
 namecheap.com
@@ -1205,6 +1221,7 @@ pijul.com
 pingbreak.com
 pingpong.one
 pipedream.com
+pkgscan.dev
 planitpoker.com
 ploi.io
 plot.ly
